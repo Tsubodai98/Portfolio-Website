@@ -3,6 +3,7 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  padding: 50px 5px;
 
   .hero-unit-subheading {
     color: rgb(236, 58, 58);
@@ -20,6 +21,22 @@
   h1 {
     span {
       color: rgb(212, 30, 30);
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-unit {
+    text-align: center;
+    background: url("../img/bg-port.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    .hero-unit-heading {
+      font-size: 43px;
+    }
+    .hero-unit-subheading {
+      font-size: 14px;
     }
   }
 }
