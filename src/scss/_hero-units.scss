@@ -1,0 +1,25 @@
+.hero-unit {
+  background: url("../img/bgpic.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+  .hero-unit-subheading {
+    color: rgb(236, 58, 58);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2.4px;
+    margin-bottom: 45px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  h1 {
+    span {
+      color: rgb(212, 30, 30);
+    }
+  }
+}
