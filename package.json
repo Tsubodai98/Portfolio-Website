@@ -9,9 +9,7 @@
   },
   "author": "Nishad Patne",
   "license": "ISC",
-  "devDependencies": {
-    "parcel": "^1.12.4"
-  },
+  "devDependencies": {},
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "bootstrap": "^4.5.3",
