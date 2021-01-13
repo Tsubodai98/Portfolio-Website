@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,
 body {
   font-family: "Open Sans", sans-serif;
@@ -167,5 +168,102 @@ a:hover, a:active, a:focus {
   .content-section.content-section-side-image .content-section-side-image-heading {
     text-align: center;
   }
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form .contact-form-input {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 18px 22px;
+  font-size: 18px;
+}
+
+.contact-form .contact-form-input::-webkit-input-placeholder {
+  color: #f0dede;
+}
+
+.contact-form .contact-form-input:-ms-input-placeholder {
+  color: #f0dede;
+}
+
+.contact-form .contact-form-input::-ms-input-placeholder {
+  color: #f0dede;
+}
+
+.contact-form .contact-form-input::placeholder {
+  color: #f0dede;
+}
+
+.contact-form textarea.contact-form-input {
+  min-height: 160px;
+}
+
+.contact-form .contact-form-checkbox-input {
+  display: none;
+}
+
+.contact-form .contact-form-checkbox-input:checked + .contact-form-checkbox-label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.contact-form .contact-form-checkbox-label {
+  position: relative;
+  color: #adabab;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.contact-form .contact-form-checkbox-label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -8px;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .contact-form-checkbox-label:after {
+  position: absolute;
+  left: 8px;
+  top: 2px;
+  content: "🖤";
+  color: #b3221d;
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+}
+
+.footer {
+  text-align: center;
+  background-color: #fadcdc;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 0px;
 }
 /*# sourceMappingURL=style.css.map */
