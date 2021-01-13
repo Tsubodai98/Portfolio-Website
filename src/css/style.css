@@ -58,6 +58,10 @@ a:hover, a:active, a:focus {
   border-radius: 50%;
 }
 
+.bg-primary {
+  background: linear-gradient(93.04deg, #ea2626 -21.04%, #0029ff 147.44%);
+}
+
 .hero-unit {
   background: url("../img/bgpic.jpg");
   background-size: cover;
@@ -265,5 +269,19 @@ a:hover, a:active, a:focus {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 10px 0px;
+}
+
+.skillsets .skillset {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.skillsets .skillset .skillset-heading {
+  text-transform: uppercase;
+  color: #797979;
+  letter-spacing: 1.6px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=style.css.map */

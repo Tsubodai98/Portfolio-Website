@@ -27,11 +27,11 @@
 
     <!-- Scripts here -->
 
-    <!-- <script defer src="node_modules/jquery/dist/jquery.js"></script>
+    <script defer src="node_modules/jquery/dist/jquery.js"></script>
 
-    <script defer src="node_modules/popper.js/dist/popper.js"></script>
+    <script defer src="node_modules/popper.js/dist/umd/popper.js"></script>
 
-    <script defer src="node_modules/bootstrap/dist/js/bootstrap.js"></script> -->
+    <script defer src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 
     <script defer src="./src/js/script.js"></script>
   </head>
@@ -62,7 +62,7 @@
       </div>
     </section>
 
-    <section class="content-section content-section-centered">
+    <section id="portfolio-section" class="content-section content-section-centered">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -122,7 +122,7 @@
               <p>
                 For the last month I decided not to do interviews, because they give interviews and they chop up your sentences and cut them short. You will have this beautiful flowing sentence where the back of the sentence reverts to the front and they cut the back of the sentence off, and I say I never said that. So, I said, you know what, I am not going to deal with them. They are very dishonest people, I said. 
               </p>
-              <p>To see my full range of skills, <a href="#">Click here</a></p>
+              <p>To see my full range of skills, <a href="#" data-toggle="modal" data-target="#exampleModal">Click here</a></p>
             </div>
           </div>
         </div>
@@ -167,5 +167,55 @@
     <footer class="footer">
       &copy; Nishad Patne - 2021
     </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">All Skillsets</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="mt-1">Check out my best skills here. You know how <strong>GOOD</strong> I am.</p>
+
+        <div class="skillsets">
+
+          <div class="skillset">
+            <h3 class="skillset-heading"> Sharpie </h3>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">God</div>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h3 class="skillset-heading"> Round Sentences </h3>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Expert</div>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h3 class="skillset-heading"> Law and Order </h3>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Noob</div>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h3 class="skillset-heading"> Ivean Polka Dance </h3>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">meH</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
   </body>
 </html>
